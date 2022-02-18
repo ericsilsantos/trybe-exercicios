@@ -4,5 +4,16 @@
   border-style: solid;
   width: 300px;
   display: flex;
-  /* flex-direction: row; */
+  margin: 1px;
+}
+.flex-column{
+  flex-direction: column;
+}
+.flex-column p{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+main div{
+  display: flex;
+  flex-wrap: wrap;
 }
